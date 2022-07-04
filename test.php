@@ -8,4 +8,5 @@ $google = new Google;
 $google->site('github.com')
 ->username('0x1881');
 
-print_r($google->url());
+echo $google->string();
+echo $google->url();
