@@ -1,0 +1,10 @@
+{
+    "name": "0x1881/dorkgen",
+    "description": "Dork generator",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "C4N\\DorkGen\\": "src/"
+        }
+    }
+}
