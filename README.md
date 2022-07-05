@@ -1,5 +1,7 @@
 # DorkGen
 
+Google dork generator
+
 ## Install
 
 ```php
