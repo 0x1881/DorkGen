@@ -51,7 +51,7 @@ class Google
         OR                = 'OR',
         AND               = 'AND';
 
-    protected array $tags = [];
+    protected $tags = [];
 
     public function plain(string $text): Google
     {
