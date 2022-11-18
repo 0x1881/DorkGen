@@ -12,5 +12,8 @@ $google = (new Google)->exclude(
 )
 ->username('zuck');
 
+echo $google.PHP_EOL; // == return $google->string()
+echo $google->dork().PHP_EOL; // == return $google->string()
 echo $google->string().PHP_EOL;
-echo $google->url();
+echo $google->url().PHP_EOL;
+print_r($google->tags());
